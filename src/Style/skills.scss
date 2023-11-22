@@ -1,0 +1,77 @@
+.skills {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 80%;
+    height: 50vh;
+
+
+    h4 {
+      color: whitesmoke;
+      
+    }
+
+    .skillbar-border {
+      border: 2px solid whitesmoke;
+      height: 30px;
+      width: 100%;
+      margin-bottom: 20px;
+
+      p {
+        font-size: 1.2rem;
+        color: whitesmoke;
+        float: right;
+      }
+
+      .html-background {
+        background-color: grey;
+        border-radius: 0px 15px 15px 0px;
+        width: 90%;
+        height: 25px;
+        animation: fadeIn 2s linear forwards;
+
+      }
+
+      .css-background {
+        background-color: grey;
+        border-radius: 0px 15px 15px 0px;
+        width: 85%;
+        height: 25px;
+        animation: fadeIn 2s linear forwards;
+
+      }
+
+      .js-background {
+        background-color: grey;
+        border-radius: 0px 15px 15px 0px;
+        width: 70%;
+        height: 25px;
+        animation: fadeIn 2s linear forwards;
+
+      }
+
+      .react-background {
+        background-color: grey;
+        border-radius: 0px 15px 15px 0px;
+        width: 75%;
+        height: 25px;
+        animation: fadeIn 2s linear forwards;
+
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

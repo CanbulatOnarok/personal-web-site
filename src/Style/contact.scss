@@ -1,0 +1,46 @@
+.form-area {
+    form {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+
+        h2 {
+            color: whitesmoke;
+            font-size: 3rem;
+        }
+
+        input {
+            width: 400px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        textarea {
+            padding: 10px;
+            width: 400px;
+            height: 100px;
+        }
+
+        button {
+            width: 100px;
+            cursor: pointer;
+            border-radius: 5px;
+
+            &:hover {
+                transform: scale(1.2);
+                background-color: grey;
+                color: whitesmoke;
+                outline: none;
+            }
+        }
+    }
+
+
+
+
+}
